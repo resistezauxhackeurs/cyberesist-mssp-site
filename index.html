@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil — CYBERESIST MSSP</title>
+  <link rel="icon" href="https://cyberesist.com/wp-content/uploads/50333709-copie.png" />
+  
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: "#7CC04B",
+          brandsoft: "#9CD27A",
+          branddark: "#4A8A2B"
+        }
+      }
+    }
+  }
+</script>
+
+  <style>
+    .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+    .card { border-radius: 1rem; border: 1px solid rgba(255,255,255,.08); background: rgba(17,17,17,.6); }
+    .badge { border: 1px solid rgba(124,192,75,.4); background: rgba(124,192,75,.1); color: #9CD27A; }
+  </style>
+</head>
+<body class="min-h-screen bg-neutral-950 text-neutral-100">
+  <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70 border-b border-neutral-800">
+    <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="https://cyberesist.com/wp-content/uploads/50333709-copie.png" alt="CYBERESIST" class="h-8 w-8 rounded">
+        <span class="font-semibold tracking-wide">CYBERESIST® — MSSP</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-3">
+        <a href="index.html" class="px-2 py-1 rounded-lg text-sm text-white">Accueil</a>
+<a href="plateforme.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">Plateforme</a>
+<a href="offres.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">Offres MSSP</a>
+<a href="fonctions.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">Fonctionnalités</a>
+<a href="tarifs.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">Tarifs Partenaires</a>
+<a href="faq.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">FAQ</a>
+<a href="devenir.html" class="px-2 py-1 rounded-lg text-sm text-neutral-300 hover:text-white">Devenir partenaire</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="devenir.html" class="rounded-xl px-3 py-2 text-sm" style="background: #7CC04B; color:#111;">Devenir partenaire</a>
+        <a href="devenir.html#demo" class="rounded-xl px-3 py-2 text-sm border border-brand/40 hover:border-brand">Demander une démo</a>
+      </div>
+    </div>
+  </header>
+  
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0" style="background: radial-gradient(60% 60% at 50% -10%, rgba(124,192,75,.18), transparent 60%);"></div>
+  <div class="relative mx-auto max-w-7xl px-4 py-24">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="badge inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs">Programme Partenaires — MSP & MSSP</span>
+        <h1 class="mt-4 text-4xl md:text-5xl font-semibold leading-tight">
+          Audit & monitoring <span style="color:#7CC04B">prêts pour le multi‑client</span>
+        </h1>
+        <p class="mt-4 text-neutral-300 text-lg">
+          Générez des revenus récurrents avec une plateforme d’audit automatisé pensée pour les MSSP :
+          multi‑tenant, marque blanche, rapports actionnables et intégrations out‑of‑the‑box.
+        </p>
+        <ul class="mt-6 grid gap-2 text-sm text-neutral-300">
+          <li>• Marges partenaires 20–40% + remises volume</li>
+          <li>• Marque blanche : rapports & tableau de bord aux couleurs de votre MSSP</li>
+          <li>• Données hébergées en France (OVH), conformité RGPD</li>
+          <li>• API & automatisation (Nmap, Nuclei, OpenVAS, ZAP, …)</li>
+        </ul>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="devenir.html" class="rounded-2xl px-4 py-2 font-medium" style="background:#7CC04B; color:#111;">Devenir partenaire</a>
+          <a href="devenir.html#demo" class="rounded-2xl border border-brand/40 px-4 py-2 hover:border-brand">Voir une démo</a>
+        </div>
+      </div>
+      <div class="card p-6">
+        <div class="grid gap-4">
+          <div class="card p-4">
+            <p class="text-sm text-brandsoft">Vue MSSP</p>
+            <h3 class="mt-1 text-lg">Multi‑tenant & suivi par client</h3>
+            <p class="mt-2 text-sm text-neutral-400">Regroupez vos clients, planifiez des scans, suivez les tendances et les SLAs.</p>
+          </div>
+          <div class="card p-4">
+            <p class="text-sm text-brandsoft">Rapports marque blanche</p>
+            <h3 class="mt-1 text-lg">Word, Excel & portail client</h3>
+            <p class="mt-2 text-sm text-neutral-400">Export one‑click, partage sécurisé, plan d’actions priorisé.</p>
+          </div>
+          <div class="card p-4">
+            <p class="text-sm text-brandsoft">Veille & détection</p>
+            <h3 class="mt-1 text-lg">Web, AD, OSINT & dark web</h3>
+            <p class="mt-2 text-sm text-neutral-400">Couverture externe & interne, détection des fuites et vulnérabilités.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 py-20">
+  <div class="grid md:grid-cols-2 gap-12 items-start">
+    <div>
+      <h2 class="text-3xl font-semibold">Plateforme MSSP</h2>
+      <p class="mt-3 text-neutral-300">
+        CYBERESIST® centralise vos audits, tickets et plans de remédiation, avec un <strong>mode multi‑client</strong>,
+        des <strong>workflows de re‑test</strong>, la génération <strong>automatisée de rapports</strong> et un
+        <strong>monitoring en continu</strong>.
+      </p>
+      <ul class="mt-6 grid gap-3 text-sm text-neutral-300">
+        <li>• Onboarding express de nouveaux clients (domaine, sous‑domaines, AD, périmètres)</li>
+        <li>• Scans orchestrés (web, infra, AD) + corrélation des résultats</li>
+        <li>• Playbooks d’audit réutilisables (NIS2 / DORA / RGPD)</li>
+        <li>• Suivi des métriques : MTTR, vulnérabilités critiques, tendance par client</li>
+        <li>• Portail client en lecture et validation des actions</li>
+      </ul>
+    </div>
+    <div class="grid gap-4">
+      <div class="card p-5"><h3 class="text-lg font-medium">Surface d’attaque externe</h3><p class="mt-1 text-sm text-neutral-400">Cartographie, technologies, vulnérabilités, exposition des données.</p></div>
+      <div class="card p-5"><h3 class="text-lg font-medium">Active Directory & réseau interne</h3><p class="mt-1 text-sm text-neutral-400">Mauvaises configs, chemins d’attaque, mots de passe faibles.</p></div>
+      <div class="card p-5"><h3 class="text-lg font-medium">OSINT & dark web</h3><p class="mt-1 text-sm text-neutral-400">Fuites d’identifiants, secrets exposés, mentions de marque.</p></div>
+      <div class="card p-5"><h3 class="text-lg font-medium">Rapports & marque blanche</h3><p class="mt-1 text-sm text-neutral-400">Word/Excel, graphiques, plan d’actions priorisé, portail client.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 py-20 border-t border-neutral-800">
+  <div class="max-w-3xl">
+    <h2 class="text-3xl font-semibold">Offres & cas d’usage pour MSSP</h2>
+    <p class="mt-3 text-neutral-300">Concevez des offres packagées qui convertissent : audit one‑shot, MRR de monitoring,
+      campagnes de pré‑diagnostic, contrôles AD mensuels, programmes de conformité.
+    </p>
+  </div>
+  <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="card p-5"><p class="text-xs text-neutral-400">Lead‑gen</p><h3 class="mt-2 text-lg font-medium">Pré‑diagnostic (prospection)</h3><p class="mt-2 text-sm text-neutral-400">Un questionnaire + pré‑scan passif pour qualifier vos leads et prioriser les offres.</p></div>
+    <div class="card p-5"><p class="text-xs text-neutral-400">One‑shot</p><h3 class="mt-2 text-lg font-medium">Audit de surface externe</h3><p class="mt-2 text-sm text-neutral-400">OWASP Top 10, inventaire techno, risques critiques, plan d’actions.</p></div>
+    <div class="card p-5"><p class="text-xs text-neutral-400">MRR</p><h3 class="mt-2 text-lg font-medium">Monitoring 24/7</h3><p class="mt-2 text-sm text-neutral-400">Alertes CVE, fuites, dérives de config, tableau de bord client.</p></div>
+    <div class="card p-5"><p class="text-xs text-neutral-400">AD</p><h3 class="mt-2 text-lg font-medium">Contrôle AD & IT interne</h3><p class="mt-2 text-sm text-neutral-400">Chemins d’attaque, GPO, délégations, mots de passe, bonnes pratiques.</p></div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 py-20 border-t border-neutral-800">
+  <div class="rounded-3xl border border-neutral-800 bg-gradient-to-br from-neutral-900 to-neutral-900/40 p-10 text-center">
+    <h2 class="text-3xl font-semibold">Prêt à lancer votre offre MSSP ?</h2>
+    <p class="mt-3 text-neutral-300">Bookez une démo, puis testez gratuitement avec 1 à 2 clients pilotes.</p>
+    <div class="mt-6 flex justify-center gap-3">
+      <a href="devenir.html#demo" class="rounded-2xl px-5 py-2 font-medium" style="background:#7CC04B; color:#111;">Réserver une démo</a>
+      <a href="tarifs.html" class="rounded-2xl border border-brand/40 px-5 py-2 hover:border-brand">Tarifs partenaires</a>
+    </div>
+  </div>
+</section>
+
+  <footer class="border-t border-neutral-800 mt-20">
+    <div class="mx-auto max-w-7xl px-4 py-10 grid md:grid-cols-4 gap-8 text-sm text-neutral-400">
+      <div>
+        <h4 class="text-neutral-200 font-medium">CYBERESIST®</h4>
+        <p class="mt-2">Solution d’audit automatisé et de monitoring — édition MSSP.</p>
+      </div>
+      <div>
+        <h4 class="text-neutral-200 font-medium">Ressources</h4>
+        <ul class="mt-2 space-y-1">
+          <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+          <li><a href="offres.html" class="hover:text-white">Offres packagées</a></li>
+          <li><a href="tarifs.html" class="hover:text-white">Tarifs partenaires</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-neutral-200 font-medium">Programme partenaires</h4>
+        <ul class="mt-2 space-y-1">
+          <li><a href="plateforme.html" class="hover:text-white">Plateforme MSSP</a></li>
+          <li><a href="devenir.html" class="hover:text-white">Devenir partenaire</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-neutral-200 font-medium">Contact</h4>
+        <p class="mt-2">102, Avenue des Champs‑Élysées, 75008 Paris</p>
+        <p><a href="mailto:contact@cyberesist.com" class="hover:text-white">contact@cyberesist.com</a></p>
+      </div>
+    </div>
+    <div class="text-center text-xs text-neutral-500 pb-8">© 2025 CYBERESIST® — Tous droits réservés.</div>
+  </footer>
+</body>
+</html>
